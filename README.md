@@ -1,0 +1,2 @@
+# VerifyDisneyPlus
+一个检测出口IP是否解锁DisneyPlus的脚本
