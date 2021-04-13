@@ -164,6 +164,10 @@ func main() {
 		NextLineSignal = true
 		fmt.Println("\033[0;36m[IPv4]\033[0m\n\033[0;33m当前IPv4出口不在DisneyPlus所支持的地区\033[0m")
 		break
+	case "-1":
+		NextLineSignal = true
+		fmt.Println("\033[0;36m[IPv4]\033[0m\n\033[0;36m当前IPv4出口所在地区即将开通DisneyPlus，尽请期待哦！\033[0m")
+		break
 	default:
 		NextLineSignal = true
 		fmt.Println("\033[0;36m[IPv4]\033[0m")
@@ -182,6 +186,12 @@ func main() {
 			fmt.Print("\n")
 		}
 		fmt.Println("\033[0;36m[IPv4]\033[0m\n\033[0;33m当前IPv6出口不在DisneyPlus所支持的地区\033[0m")
+		break
+	case "-1":
+		if NextLineSignal == true {
+			fmt.Print("\n")
+		}
+		fmt.Println("\033[0;36m[IPv6]\033[0m\n\033[0;36m当前IPv6出口所在地区即将开通DisneyPlus，尽请期待哦！\033[0m")
 		break
 	default:
 		if NextLineSignal == true {
