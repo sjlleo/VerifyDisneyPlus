@@ -166,7 +166,7 @@ func main() {
 		break
 	case "-1":
 		NextLineSignal = true
-		fmt.Println("\033[0;36m[IPv4]\033[0m\n\033[0;36m当前IPv4出口所在地区即将开通DisneyPlus，尽请期待哦！\033[0m")
+		fmt.Println("\033[0;36m[IPv4]\033[0m\n\033[0;34m当前IPv4出口所在地区即将开通DisneyPlus，尽请期待哦！\033[0m")
 		break
 	default:
 		NextLineSignal = true
@@ -191,7 +191,7 @@ func main() {
 		if NextLineSignal == true {
 			fmt.Print("\n")
 		}
-		fmt.Println("\033[0;36m[IPv6]\033[0m\n\033[0;36m当前IPv6出口所在地区即将开通DisneyPlus，尽请期待哦！\033[0m")
+		fmt.Println("\033[0;36m[IPv6]\033[0m\n\033[0;34m当前IPv6出口所在地区即将开通DisneyPlus，尽请期待哦！\033[0m")
 		break
 	default:
 		if NextLineSignal == true {
