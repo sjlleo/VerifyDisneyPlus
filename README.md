@@ -1,7 +1,7 @@
 # VerifyDisneyPlus
 一个检测出口IP是否解锁DisneyPlus的脚本
 
-![image](https://user-images.githubusercontent.com/13616352/114304881-1e942100-9b08-11eb-9233-03ac16c17fbb.png)
+![image](https://user-images.githubusercontent.com/13616352/114509583-41d5e200-9c68-11eb-8127-8bbce25dcf75.png)
 
 ## 功能简介
 
