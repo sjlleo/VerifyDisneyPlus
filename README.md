@@ -15,5 +15,5 @@
 Github（需有IPv4网络）
 
 ```bash
-  wget -O dp https://github.com/sjlleo/VerifyDisneyPlus/releases/download/1.0Beta/dp_1.0Beta_linux_amd64 && chmod +x dp && clear && ./dp
+  wget -O dp https://github.com/sjlleo/VerifyDisneyPlus/releases/download/1.01/dp_1.01_linux_amd64 && chmod +x dp && clear && ./dp
 ```
